@@ -9,7 +9,7 @@ jobs:
     name: Deploy
     steps:
       - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v9.2.0
+      - uses: pnpm/action-setup@latest
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
